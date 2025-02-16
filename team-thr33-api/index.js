@@ -30,7 +30,7 @@ app.post('/api/poi/database', async (req, res) => {
       return res.status(400).json({ error: "No data attribute in request body." });
     }
 
-    res.status(200).json({ success: true, data: {}, message: "POI data received successfully." });
+    res.status(200).json({ status: 200, data: { data }, message: "POI data received successfully." });
 
   } catch (error) {
     console.error("Error in /api/poi/database:", error);
