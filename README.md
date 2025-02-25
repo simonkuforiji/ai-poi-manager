@@ -1,5 +1,6 @@
 ### AI- Enhanced POI Manager
 #### How to run the app
+- **Rename all "env.txt" files to ".env"
 - **Open two terminals
 #### To run the web server, run the commands below in the first terminal
 - **cd poi-api
